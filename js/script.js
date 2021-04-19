@@ -1,6 +1,6 @@
 // open menu
 const open = document.querySelector(".header__mobileOpen__wrapper");
-// clos menu
+// close menu
 const close = document.querySelector(".header__mobileClose__wrapper");
 // scroll menu
 let hiddenLinks = document.querySelectorAll(".nav__hidden__link");
