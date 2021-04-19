@@ -1,0 +1,23 @@
+/* ==================== FOOTER ==================== */
+
+.footer { background: #34547A; }
+.footer__wrapper { padding: 0 0 28px 17px; }
+.footer__about h3 { margin-top: 49px; }
+.footer__about p {
+    margin-top: 12px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer__socials { text-align: right; }
+.footer__socials img { margin-top: 56px; }
+.footer__socials a { margin-right: 17px; }
+.footer__socials a:last-child { margin-right: 0; }
+
+@media screen and (max-width: 767px) {
+    .footer__wrapper { padding: 0 10px 28px 10px; }
+    .footer__about h3 { font-size: 20px; }
+    .footer__about p { font-size: 12px; }
+    .footer__socials a { margin-right: 10px; }
+    .footer__socials img { width: 35px; }
+}

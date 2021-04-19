@@ -1,0 +1,47 @@
+/* ==================== SKILLS ==================== */
+
+.skills { background: #E5E5E5; }
+.skills__programm {
+    margin-top: 205px;
+    margin-left: -4px;
+    margin-bottom: 185px;
+}
+.skills__programm h2 {
+    text-align: left;
+    margin-bottom: 40px;
+}
+.skills__programm p {
+    margin-top: 21px;
+    margin-bottom: -2px;
+}
+.skills__progress {
+    background: #34547A;
+    width: 445px;
+    height: 4px;
+    transform: rotate(-0.06deg);
+}
+.skills__progress::-webkit-progress-value { background: #34547A; }
+.skills__progress::-webkit-progress-bar { background: #c4c4c4; }
+.skills__selfie img {
+    width: 100%;
+    margin-top: 102px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 991px) {
+    .skills__programm { margin: 50px 0; }
+    .skills__programm h2 {
+        text-align: center;
+        font-size: 28px;
+    }
+    .skills__wrapper { padding: 0 20px; }
+    .skills__progress { width: 100%; }
+    .skills__selfie img {
+        margin: 0 0 50px 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1140px) {
+    .skills__selfie img { margin-left: 30px; }
+}

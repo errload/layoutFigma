@@ -1,0 +1,35 @@
+/* ==================== NUMBERS ==================== */
+
+.numbers__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.numbers { background: #34547A; }
+.numbers__item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 97px;
+    padding: 0 15px;
+}
+.numbers__item__text h3, .numbers__item__text p { margin: 0; }
+.numbers__item__text {
+    padding-left: 20px;
+    padding-top: 2px;
+    margin: 0;
+}
+.numbers__item__text p {
+    margin: 0;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 767px) {
+    .numbers__wrapper { padding: 0 20px; }
+    .numbers__item:nth-last-child(-n + 4) { margin-top: 0; }
+    .numbers__item__text { padding-left: 10px; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .numbers__item:nth-last-child(-n + 3) { margin-top: 0; }
+    .numbers__item__text { padding-left: 20px; }
+}

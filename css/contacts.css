@@ -1,0 +1,52 @@
+/* ==================== CONTACTS ==================== */
+
+.contacts { background: #EEEFF1; }
+.contacts__form { text-align: center; }
+.contacts__form h2 { margin-top: 94px; }
+.contacts__form p { margin-top: 40px; }
+.contacts__form form { margin-top: 57px; }
+.contacts__input {
+    width: 255px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    padding: 13px 18px;
+    margin-right: 13px;
+    outline: none;
+    border: 0;
+}
+.contacts__input:last-child {
+    margin-right: 0;
+    margin-left: 13px;
+}
+.contacts__textarea {
+    margin-top: 20px;
+    width: 540px;
+    height: 175px;
+    resize: none;
+    padding: 13px 18px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    outline: none;
+    border: 0;
+}
+.contacts__form button {
+    margin-top: 43px;
+    padding: 15px 42px;
+    margin-bottom: 99px;
+}
+
+@media screen and (max-width: 1139px) {
+    .contacts__wrapper { padding: 0 20px; }
+    .contacts__form button { margin-bottom: 50px; }
+    .contacts__input {
+        margin-right: 0;
+        width: 100%;
+    }
+    .contacts__input:last-child { 
+        margin-left: 0;
+        margin-top: 17px;
+    }
+    .contacts__textarea { width: 100%; }
+}

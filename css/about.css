@@ -1,0 +1,23 @@
+/* ==================== ABOUT ME ==================== */
+
+.aboutMe { background: #E5E5E5; }
+.aboutMe__wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.aboutMe__content { width: 540px; }
+.aboutMe__content h2 { margin-top: 110px; }
+.aboutMe__content p {
+    margin-top: 39px;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 992px) {
+    .aboutMe__content { padding: 0 20px; }
+    .aboutMe__content h2 {
+        margin-top: 50px;
+        font-size: 28px;
+    }
+    .aboutMe__content p { margin-bottom: 50px; }
+}
